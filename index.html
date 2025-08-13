@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL Engenharia</title>
+
+    <!-- SEO Básico -->
+    <meta name="description" content="Empresa de engenharia especializada em projetos e obras de alta qualidade.">
+    <meta name="keywords" content="engenharia, construção, obras, projetos, civil">
+    <meta name="author" content="Lucas Nascimento">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS (Animação ao rolar) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Menu -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Engenharia Nascimento</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Início -->
+    <section id="inicio" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h2>Construindo o futuro com qualidade</h2>
+            <p>Projetos e obras de engenharia com excelência.</p>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+        <div class="container" data-aos="fade-right">
+            <h2>Sobre Nós</h2>
+            <p>Somos especializados em projetos, execução de obras e consultoria técnica. Nosso compromisso é entregar qualidade, segurança e eficiência em cada projeto.</p>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="section">
+        <div class="container" data-aos="fade-up">
+            <h2>Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>Projetos</h3>
+                    <p>Planejamento e desenvolvimento de projetos arquitetônicos e estruturais.</p>
+                </div>
+                <div class="servico">
+                    <i class="fas fa-hard-hat"></i>
+                    <h3>Execução de Obras</h3>
+                    <p>Construção e reforma com qualidade e prazo garantidos.</p>
+                </div>
+                <div class="servico">
+                    <i class="fas fa-clipboard-check"></i>
+                    <h3>Consultoria Técnica</h3>
+                    <p>Orientação especializada para tomadas de decisão seguras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+        <div class="container" data-aos="fade-left">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <img src="img/projeto1.jpg" alt="Projeto 1">
+                <img src="img/projeto2.jpg" alt="Projeto 2">
+                <img src="img/projeto3.jpg" alt="Projeto 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+        <div class="container" data-aos="fade-up">
+            <h2>Contato</h2>
+            <p><i class="fas fa-phone"></i> (61) 99999-9999</p>
+            <p><i class="fas fa-envelope"></i> contato@engenharianascimento.com</p>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Engenharia Nascimento - Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
